@@ -1,19 +1,19 @@
 import React from "react";
 import Navbar from "../components/Appbar";
 import Sidebar from "../components/sidebar";
-import MainBody from "../components/MainBody";
+import Main from "../components/Main";
 
-const Admin = () => {
+const Broker = () => {
     return (
       <div className="bg-gray-100 min-h-screen flex">
         <Sidebar />
         <div className="ml-[300px] flex-1">
           <Navbar />
-          <MainBody />
+          <Main />
         </div>
       </div>
      
     );
   }
 
-  export default Admin;
+  export default Broker;

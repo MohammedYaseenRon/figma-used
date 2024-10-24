@@ -3,7 +3,7 @@ import Navbar from "../components/Appbar";
 import Sidebar from "../components/sidebar";
 import MainBody from "../components/MainBody";
 
-const Admin = () => {
+const AdminTwo = () => {
     return (
       <div className="bg-gray-100 min-h-screen flex">
         <Sidebar />
@@ -16,4 +16,4 @@ const Admin = () => {
     );
   }
 
-  export default Admin;
+  export default AdminTwo;

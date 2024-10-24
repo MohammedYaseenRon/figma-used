@@ -1,6 +1,6 @@
 import React from "react";
 import Logout from "../../LogoutIcon";
-import UserIcon from "../../UserIcon";
+import UserIcon from "../assets/Icon/UserIcon";
 
 const Sidebar = () => {
   return (
@@ -10,7 +10,7 @@ const Sidebar = () => {
       </div>
       
       <div className="absolute left-8 top-[144px] space-y-4">
-        <div className="flex items-center gap-3 bg-blue-50 text-blue-600 px-4 py-2 rounded-lg">
+        <div className="flex items-center gap-3 bg-blue-50 text-black text-base font-bold px-4 py-2 rounded-lg">
          <UserIcon />
           <span>On Boarding</span>
         </div>
@@ -22,7 +22,7 @@ const Sidebar = () => {
         ))}
       </div>
 
-      <div className="absolute w-[237px] left-8 bottom-20">
+      <div className="absolute w-[237px] left-8 bottom-16">
         <button className="flex items-center gap-3 text-red-500 px-4 py-2 hover:bg-gray-100 rounded-lg">
           <Logout />
           <span>Logout</span>

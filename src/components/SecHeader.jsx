@@ -1,8 +1,7 @@
 import React from "react";
-import { Bell, User } from "lucide-react";
-import Calendar from "./Calendar";
-import Toggle from "./toggle";
-import Arrow from "./Arrow";
+import Calendar from "@/assets/Icon/Calendar";
+import Toggle from "@/assets/Icon/toggle";
+import Arrow from "@/assets/Icon/Arrow";
 
 
 const SecHeader = () => {

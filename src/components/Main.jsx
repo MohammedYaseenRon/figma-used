@@ -35,7 +35,7 @@ const Main = () => {
             placeholder={placeholder}
             value={value}
             onChange={onChange}
-            className="w-full p-2 border border-gray-300 rounded-r focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="w-full p-2 px-4 border border-gray-300 rounded-r focus:outline-none focus:ring-1 focus:ring-blue-500"
           />
         </div>
       ) : (
@@ -44,7 +44,7 @@ const Main = () => {
           placeholder={placeholder}
           value={value}
           onChange={onChange}
-          className="w-full h-[45px] p-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="w-full h-[45px] p-2  px-4 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
         />
       )}
     </div>

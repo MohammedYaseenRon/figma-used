@@ -14,11 +14,11 @@ const data = [
 
 const Card = () => {
   return (
-    <main className="fixed top-[214px] w-[1153px] h-[699px]">
+    <main className="fixed top-[214px] w-[1153px]  ">
       <div className="bg-white rounded-l-lg border border-gray-200 flex flex-col items-center justify-between h-full">
         <div className="overflow-hidden w-full">
           <table className="w-full">
-            <thead className="bg-blue-50">
+            <thead className="bg-[#BEDAFF]">
               <tr>
                 <th className="px-4 py-2 text-left">S.no</th>
                 <th className="px-4 py-2 text-left">Name</th>
@@ -46,7 +46,7 @@ const Card = () => {
                           index % 3 === 0
                             ? "text-green-600"
                             : "text-orange-600"
-                        }`}
+                        } font-bold`}
                       >
                         {index % 3 === 0 ? "Active" : "In-Progress"}
                       </span>

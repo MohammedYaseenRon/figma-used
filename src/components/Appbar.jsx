@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="h-[43px] mt-[50px] px-8 flex rounded-lg items-center justify-between">
       <div className="flex items-center gap-12">
-        <button className="text-lg font-medium text-black text-2xl border-b-2 border-blue-600">Onboarding Status</button>
+        <button className="text-lg font-medium text-black text-2xl border-b-4 border-blue-600 rounded-t-lg" >Onboarding Status</button>
         <button className="text-gray-600 text-lg hover:text-blue-600 transition-colors">
           Add Broker
         </button>

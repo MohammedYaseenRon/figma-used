@@ -9,8 +9,8 @@ const Sidebar = () => {
         <span className="text-blue-600 text-3xl font-semibold">Coverfi</span>
       </div>
       
-      <div className="absolute left-8 top-[144px] space-y-4">
-        <div className="flex items-center gap-3 bg-blue-50 text-black text-base font-bold px-4 py-2 rounded-lg">
+      <div className="absolute left-8 top-[144px] space-y-4 w-52">
+        <div className="flex items-center gap-3 bg-[#BEDAFF] text-black text-base font-bold px-4 py-2 rounded-lg">
          <UserIcon />
           <span>On Boarding</span>
         </div>
